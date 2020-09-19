@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.detox.rn.example.test" >
+4
+5    <uses-sdk
+5-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:5:5-74
+6        android:minSdkVersion="18"
+6-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:11:5-15:70
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:11:22-76
+11        android:functionalTest="false"
+11-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:13:22-53
+13        android:label="Tests for com.detox.rn.example"
+13-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:15:22-68
+14        android:targetPackage="com.detox.rn.example" />
+14-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:12:22-66
+15
+16    <uses-permission android:name="android.permission.REORDER_TASKS" />
+16-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:24:22-69
+17
+18    <application
+18-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:7:5-9:19
+19        android:allowBackup="true"
+19-->[com.wix:detox:17.5.6] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\a88f4df99fd12b5cdf72247380b650dc\detox-17.5.6\AndroidManifest.xml:12:9-35
+20        android:debuggable="true"
+20-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:7:18-43
+21        android:label="@string/app_name"
+21-->[com.wix:detox:17.5.6] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\a88f4df99fd12b5cdf72247380b650dc\detox-17.5.6\AndroidManifest.xml:13:9-41
+22        android:supportsRtl="true" >
+22-->[com.wix:detox:17.5.6] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\a88f4df99fd12b5cdf72247380b650dc\detox-17.5.6\AndroidManifest.xml:14:9-35
+23        <uses-library android:name="android.test.runner" />
+23-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:8:9-60
+23-->D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\tmp\manifest\androidTest\release\manifestMerger4225930692245253664.xml:8:23-57
+24
+25        <activity
+25-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:27:9-33:20
+26            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+26-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:28:13-99
+27            android:theme="@android:style/Theme" >
+27-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:29:13-49
+28            <intent-filter>
+28-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:30:13-32:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:31:17-69
+29-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:31:25-66
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:34:9-40:20
+33            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+33-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:35:13-95
+34            android:theme="@android:style/Theme" >
+34-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:36:13-49
+35            <intent-filter>
+35-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:30:13-32:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:31:17-69
+36-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:31:25-66
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:41:9-47:20
+40            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+40-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:42:13-103
+41            android:theme="@android:style/Theme.Dialog" >
+41-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:43:13-56
+42            <intent-filter>
+42-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:30:13-32:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:31:17-69
+43-->[androidx.test:core:1.2.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b1407028f14c519714f1099ba17b32b2\core-1.2.0\AndroidManifest.xml:31:25-66
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>

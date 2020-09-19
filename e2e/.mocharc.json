@@ -1,0 +1,7 @@
+{
+    "recursive": true,
+    "timeout": 300000,
+    "bail": true,
+    "reporter":"mochawesome",
+    "file": "e2e/init.js"
+}

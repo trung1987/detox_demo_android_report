@@ -1,0 +1,231 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-09-19T08:08:36.646Z",
+    "end": "2020-09-19T08:08:56.918Z",
+    "duration": 20272,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "434aa6fb-df44-4838-9e06-4363fdf9630d",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [
+        {
+          "title": "\"before all\" hook",
+          "fullTitle": "\"before all\" hook",
+          "timedOut": false,
+          "duration": 14888,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "await detox.init();",
+          "err": {},
+          "uuid": "45210fb6-f8e0-417b-9870-14e8365d45de",
+          "parentUUID": "434aa6fb-df44-4838-9e06-4363fdf9630d",
+          "isHook": true,
+          "skipped": false
+        },
+        {
+          "title": "\"before each\" hook",
+          "fullTitle": "\"before each\" hook",
+          "timedOut": false,
+          "duration": 1,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "await adapter.beforeEach(this);",
+          "err": {},
+          "uuid": "f6d3d9d0-b00e-40ac-92d2-fb06a259ae15",
+          "parentUUID": "434aa6fb-df44-4838-9e06-4363fdf9630d",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "afterHooks": [
+        {
+          "title": "\"after all\" hook",
+          "fullTitle": "\"after all\" hook",
+          "timedOut": false,
+          "duration": 44,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "await detox.cleanup();",
+          "err": {},
+          "uuid": "5218d30b-3cfd-4503-bbd3-2c8000c84aa1",
+          "parentUUID": "434aa6fb-df44-4838-9e06-4363fdf9630d",
+          "isHook": true,
+          "skipped": false
+        },
+        {
+          "title": "\"after each\" hook",
+          "fullTitle": "\"after each\" hook",
+          "timedOut": false,
+          "duration": 0,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "await adapter.afterEach(this);",
+          "err": {},
+          "uuid": "20631c71-ec78-4ef0-98a9-c8d8f01f47f3",
+          "parentUUID": "434aa6fb-df44-4838-9e06-4363fdf9630d",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d924b10d-5458-496e-9d05-dd7d7e774979",
+          "title": "Example",
+          "fullFile": "D:\\detox_master_source\\demo_react_native_app\\e2e\\example.spec.js",
+          "file": "\\e2e\\example.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "Example \"before each\" hook",
+              "timedOut": false,
+              "duration": 1209,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await device.reloadReactNative();",
+              "err": {},
+              "uuid": "04cfb088-ee73-4cbb-8406-bf4e1972ce52",
+              "parentUUID": "d924b10d-5458-496e-9d05-dd7d7e774979",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should have welcome screen",
+              "fullTitle": "Example should have welcome screen",
+              "timedOut": false,
+              "duration": 140,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"Have welcome screen\"",
+              "code": "await expect(element(by.id('welcome'))).toBeVisible();\naddContext(this,'Have welcome screen')",
+              "err": {},
+              "uuid": "5a4d9e5c-1c4e-49e7-ad26-275cf5f2e0a9",
+              "parentUUID": "d924b10d-5458-496e-9d05-dd7d7e774979",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should show hello screen after tap",
+              "fullTitle": "Example should show hello screen after tap",
+              "timedOut": false,
+              "duration": 791,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  \"Tap hello button\",\n  \"Have hello button\"\n]",
+              "code": "addContext(this,'Tap hello button')\nawait element(by.id('hello_button')).tap();\nawait expect(element(by.text('Hello!!!'))).toBeVisible();\naddContext(this,'Have hello button')",
+              "err": {},
+              "uuid": "029c9a11-df20-4d04-8ad4-043184f698be",
+              "parentUUID": "d924b10d-5458-496e-9d05-dd7d7e774979",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should show world screen after tap",
+              "fullTitle": "Example should show world screen after tap",
+              "timedOut": false,
+              "duration": 596,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  \"Tap world_button\",\n  \"Have world_button\",\n  \"http://i.imgur.com/eoaDEYp.gif\"\n]",
+              "code": "addContext(this,'Tap world_button')\nawait element(by.id('world_button')).tap();\nawait expect(element(by.text('World!!!'))).toBeVisible();\naddContext(this,'Have world_button')\naddContext(this, 'http://i.imgur.com/eoaDEYp.gif');",
+              "err": {},
+              "uuid": "ae80f7bf-af18-4eb7-94ac-30e357845d69",
+              "parentUUID": "d924b10d-5458-496e-9d05-dd7d7e774979",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5a4d9e5c-1c4e-49e7-ad26-275cf5f2e0a9",
+            "029c9a11-df20-4d04-8ad4-043184f698be",
+            "ae80f7bf-af18-4eb7-94ac-30e357845d69"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1527,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 300000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 300000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

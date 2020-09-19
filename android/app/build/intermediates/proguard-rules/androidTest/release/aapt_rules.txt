@@ -1,0 +1,8 @@
+# Referenced at D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\merged_manifests\releaseAndroidTest\AndroidManifest.xml:25
+-keep class androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity { <init>(); }
+# Referenced at D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\merged_manifests\releaseAndroidTest\AndroidManifest.xml:32
+-keep class androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity { <init>(); }
+# Referenced at D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\merged_manifests\releaseAndroidTest\AndroidManifest.xml:39
+-keep class androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity { <init>(); }
+# Referenced at D:\detox_master_source\demo_react_native_app\android\app\build\intermediates\merged_manifests\releaseAndroidTest\AndroidManifest.xml:9
+-keep class androidx.test.runner.AndroidJUnitRunner { <init>(); }

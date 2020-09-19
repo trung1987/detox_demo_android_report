@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.detox.rn.example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:7:5-67
+11-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:8:5-77
+12-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:8:22-75
+13
+14    <application
+14-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:10:5-28:19
+15        android:name="com.example.MainApplication"
+15-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:11:7-38
+16        android:allowBackup="true"
+16-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:12:7-33
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\TrungTo\.gradle\caches\transforms-2\files-2.1\b781f88593e21f04ffee224366dc7d42\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:14:7-41
+19        android:label="@string/app_name"
+19-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:13:7-39
+20        android:networkSecurityConfig="@xml/network_security_config"
+20-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:16:7-67
+21        android:theme="@style/AppTheme" >
+21-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:15:7-38
+22        <activity
+22-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:18:7-26:18
+23            android:name="com.example.MainActivity"
+23-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:19:9-37
+24            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+24-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:21:9-79
+25            android:label="@string/app_name" >
+25-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:20:9-41
+26            <intent-filter>
+26-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:22:9-25:25
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:23:13-65
+27-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:23:21-62
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:24:13-73
+29-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:24:23-70
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+32-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:27:7-84
+32-->D:\detox_master_source\demo_react_native_app\android\app\src\main\AndroidManifest.xml:27:17-81
+33    </application>
+34
+35</manifest>
