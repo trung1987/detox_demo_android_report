@@ -52,3 +52,9 @@
  detox test --configuration ios.sim.debug
  ```
  This action will open a new simulator and run the tests on it.
+
+
+
+#### Report demo
+
+ * https://htmlpreview.github.io/?https://github.com/trung1987/detox_demo_android_report/blob/master/mochawesome-report/mochawesome.html
